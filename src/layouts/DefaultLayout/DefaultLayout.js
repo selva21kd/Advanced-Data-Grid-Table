@@ -5,6 +5,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import PublicIcon from '@material-ui/icons/Public';
 import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 import { Link } from "react-router-dom";
+import "./style.css"
 
 const drawerWidth = 240;
 
@@ -57,8 +58,18 @@ export default function PermanentDrawerLeft(props) {
                 anchor="left"
             >
                 <div className={classes.toolbar} />
+                
+                <div className = "left-nav-logo">
+                    <img src = "https://cdn3.iconfinder.com/data/icons/user-icon-3-1/100/user_3_Artboard_1-512.png" 
+                        alt = "Avatar" 
+                        width = "150px"
+                        className="img-avatar"    />
+                    
+                    <p className= 'welcome-text'>
+                        Welcome Back KD    
+                    </p>
+                </div>
                 <Divider />
-
                 <List>
                     <Link to="/" >
                         <ListItem button>
@@ -85,7 +96,6 @@ export default function PermanentDrawerLeft(props) {
                         </ListItem>
                     </Link>
                 </List>
-
             </Drawer>
             <main className={classes.content}>
                 <div className={classes.toolbar} />

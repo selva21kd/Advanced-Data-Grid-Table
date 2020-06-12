@@ -21,3 +21,14 @@
 .root-tableTop{
     padding-top: 30px;
 }
+
+/* Logged user image */
+.img-avatar{
+    padding-left: 40px;
+}
+
+/* Welcome User Text */
+.welcome-text{
+    padding-left: 35px;
+    font-style: italic;
+}
