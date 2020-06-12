@@ -1,0 +1,18 @@
+/* Planet component CSS */
+.no-data{
+    text-align: center !important;
+}
+.root-tableTop{
+    width: 75%;
+}
+
+.pagination{
+    margin-top: 20px;
+}
+
+.MuiPagination-root{
+    display: inline-block !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    
+}

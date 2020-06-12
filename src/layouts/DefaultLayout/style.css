@@ -1,0 +1,34 @@
+/* Layout Styles */
+.left-nav{
+    display: inline-block !important;
+    width: 250px;
+    border-right: 1px solid black;
+    height: 100vh;
+    position: fixed;
+    float: left;
+    top: 0;
+}
+
+.layout-views{
+    display: inline-block !important;
+    padding-left: 10px;
+    position: relative;
+    left: 260px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.root-tableTop{
+    padding-top: 30px;
+}
+
+/* Logged user image */
+.img-avatar{
+    padding-left: 40px;
+}
+
+/* Welcome User Text */
+.welcome-text{
+    padding-left: 35px;
+    font-style: italic;
+}

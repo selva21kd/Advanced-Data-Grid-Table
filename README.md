@@ -1,4 +1,8 @@
-##Advanced Data Table Generation
+## Advanced Data Table Generation
+
+## Screenshots
+![alt text](http://url/to/img.png)
+
 
 Generate advanced data table using JSON Object. 
 
